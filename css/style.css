@@ -22,7 +22,7 @@ body
 }
 
 section {
-    margin: 70px 0px;
+    margin: 120px 0px;
 }
 
 h2
@@ -49,6 +49,11 @@ CABEZERA
     transition: 0.2s;
 }
 
+#logo_principal_mobility {
+    height: 60px;
+    transition: 0.2s;
+}
+
 #btn_menu {
     padding: 9px 12px;
     transition: 0.2s;
@@ -61,6 +66,16 @@ header {
     background-color: white;
     z-index: 1;
     transition: 0.2s;
+}
+
+hr.style14 { 
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+    margin: 8px 0px;
 }
 
 #contenedor_header {
@@ -116,6 +131,19 @@ header {
 }
 
 
+.nav {
+    --bs-nav-link-color: #0089A6 !important;
+    --bs-nav-link-hover-color: #0f3b62 !important;
+    font-size: 20px;
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: var(--bs-nav-link-color) !important;
+}
+
+.nav img {
+    height: 24px;
+}
 
 .texto_img {
     width: 100%;
@@ -151,9 +179,15 @@ header {
 
 @media screen and (max-width: 480px) {
     #logo_principal {
-        margin-top: 5px;
+        margin-top: 10px;
         padding: 0px;
-        max-height: 50px;
+        max-height: 40px;
+    }
+
+    #logo_principal_mobility {
+        margin-top: 10px;
+        padding: 0px;
+        max-height: 40px;
     }
 
     .contenedor_img_main {
@@ -175,8 +209,14 @@ header {
 
 @media screen and (max-width: 390px) {
     #logo_principal {
-        max-height: 40px;
-        margin-top: 10px;
+        max-height: 30px;
+        margin-top: 15px;
+        padding: 0px;
+    }
+
+    #logo_principal_mobility {
+        max-height: 30px;
+        margin-top: 15px;
         padding: 0px;
     }
 
@@ -201,6 +241,10 @@ header {
 .btn-mobility svg{
     width: 20px;
     margin-right: 5px;
+}
+
+.card .btn-mobility {
+    width: 80%;
 }
 
 .btn-mobility2 {
@@ -236,7 +280,7 @@ header {
 
 .card {
     border-radius: 15px !important;
-    min-height: 600px;
+    /*min-height: 600px;*/
 }
 
 .card-img-top {
