@@ -248,11 +248,25 @@ hr.style14 {
 }
 
 .btn-mobility2 {
-    background-color: rgba(15, 59, 98, 0.3) !important;
+    background-color: rgba(15, 59, 98, 0.5) !important;
     color: white !important;
     border: 3px solid white !important;
     font-weight: bold !important;
     box-shadow: 2px 2px 5px #0f3b62;
+    text-shadow: 0 0 0.3em #0f3b62, 0 0 0.3em #0f3b62;
+}
+
+.btn-mobility3 {
+    background-color: white !important;
+    color: #0089a6 !important;
+    border: 3px #0089a6 solid !important;
+    font-weight: bold !important;
+}
+
+.dropdown-menu {
+    border-color: #0089a6 !important;
+    border-width: 2px !important;
+    font-size: 19px !important;
 }
 
 .bg-mobility {
@@ -300,13 +314,13 @@ hr.style14 {
 
 .card-body {
     position: relative;
-    min-height: 290px;
+    min-height: 190px;
 }
 
 .card .btn {
     position: absolute;
     left: 50%;
-  bottom: 20px;
+  bottom: 5%;
   transform: translate(-50%, -50%);
   margin: 0 auto;
 }
