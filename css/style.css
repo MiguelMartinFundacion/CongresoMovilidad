@@ -121,7 +121,7 @@ hr.style14 {
 
 
 .img_index {
-    background-image: url("../img/fondo02.png");
+    background-image: url("../img/fondo02.webp");
     background-position-y: calc(2100px - (1920px - 100vw) / 2);
 }
 
@@ -263,7 +263,7 @@ hr.style14 {
     font-weight: bold !important;
 }
 
-.dropdown-menu {
+.dropdown-menu-ponencia {
     border-color: #0089a6 !important;
     border-width: 2px !important;
     font-size: 19px !important;

@@ -1,7 +1,7 @@
 #calendario{
     width: 100%;
     border-radius: 15px;
-    padding: 18px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     background-color: #008aa627;
     margin-top: 15px;
 }
@@ -20,6 +20,15 @@
 
 .parte_calendario {
     padding-bottom: 18px;
+}
+
+.parte_calendario:first-child {
+    padding-top: 18px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.parte_calendario:last-child {
+    border-radius: 0px 0px 15px 15px;
 }
 
 #calendario .row {
